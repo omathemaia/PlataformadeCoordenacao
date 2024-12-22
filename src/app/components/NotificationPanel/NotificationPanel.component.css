@@ -1,0 +1,103 @@
+.union-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.user-avatar {
+  position: absolute;
+  top: 16px;
+  left: 86px;
+  filter: blur(34px);
+  border-radius: 50%;
+  background-color: var(--color-gold);
+  width: 33px;
+  height: 33px;
+  z-index: 1;
+}
+.notification-avatar {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.nova-notificao {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 115px;
+  z-index: 1;
+}
+.notification-title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xl) 0 var(--padding-7xl);
+}
+.kauan-acabou-de {
+  position: relative;
+  font-size: var(--font-size-xs);
+  color: var(--color-slategray-200);
+  text-align: center;
+  z-index: 1;
+}
+.notification-content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.notification-action-child {
+  height: 40px;
+  width: 166px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-darkgray-100);
+  display: none;
+}
+.responder-mensagem {
+  position: relative;
+  font-weight: 500;
+  z-index: 2;
+}
+.notification-action,
+.notification-panel {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.notification-action {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-darkgray-100);
+  flex-direction: row;
+  padding: var(--padding-2xs) var(--padding-7xs) var(--padding-xs)
+    var(--padding-5xs);
+  z-index: 1;
+}
+.notification-panel {
+  position: absolute;
+  top: 701px;
+  left: 46px;
+  width: 206px;
+  flex-direction: column;
+  padding: var(--padding-49xl) var(--padding-xl) var(--padding-4xl);
+  box-sizing: border-box;
+  gap: var(--gap-7xl);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--text-xl-bold);
+}

@@ -1,0 +1,352 @@
+.image3 {
+  align-self: stretch;
+  height: 120px;
+  position: relative;
+  border-radius: var(--br-7xs);
+  background: linear-gradient(90deg, #fbc7d4, #9796f0);
+  display: none;
+}
+.progress-meeting-with {
+  position: relative;
+  font-weight: 600;
+}
+.take-notes-ask {
+  width: 241px;
+  position: relative;
+  font-size: var(--font-size-sm);
+  display: inline-block;
+}
+.progress-content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.calendar-icon3 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.sep-25-2021 {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 77px;
+}
+.sep-25-2021-wrapper {
+  flex-direction: column;
+  padding: var(--padding-8xs) 0 0;
+}
+.calendar-icon-parent,
+.sep-25-2021-wrapper,
+.task-image-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.calendar-icon-parent {
+  flex-direction: row;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-xs);
+  color: var(--color-slategray-100);
+}
+.task-image-content {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-lg);
+  min-width: 161px;
+}
+.emoji-reaction-icon3 {
+  width: 22px;
+  height: 22px;
+  position: relative;
+  object-fit: cover;
+}
+.assigned-to-icon3 {
+  align-self: stretch;
+  height: 40px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.emoji-reaction-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-40xl);
+  margin-left: -8px;
+}
+.task-image-content-parent,
+.task3 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.task-image-content-parent {
+  flex-direction: row;
+  row-gap: 20px;
+}
+.task3 {
+  box-shadow: 0 3px 0#b2b8c4;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-white);
+  flex-direction: column;
+  padding: var(--padding-3xs);
+  gap: var(--gap-3xs);
+}
+.log-in-extra-hours {
+  margin: 0;
+}
+.refer-your-personal {
+  color: var(--color-darkslategray-400);
+}
+.notion1 {
+  text-decoration: underline;
+}
+.notion {
+  color: inherit;
+}
+.refer-your-personal-notion-dat {
+  margin: 0;
+  color: var(--color-slategray-100);
+}
+.log-in-extra-hours-container {
+  flex: 1;
+  position: relative;
+}
+.note3 {
+  align-self: stretch;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-lightgreen-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  font-size: var(--font-size-sm);
+}
+.image-icon1 {
+  align-self: stretch;
+  height: 120px;
+  position: relative;
+  border-radius: var(--br-7xs);
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.here {
+  color: var(--color-slategray-100);
+}
+.link-here {
+  align-self: stretch;
+  position: relative;
+}
+.moodboard-link,
+.update-travel-mood-board-with-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.moodboard-link {
+  width: 240px;
+  gap: var(--gap-lg);
+  font-size: var(--font-size-sm);
+}
+.update-travel-mood-board-with-parent {
+  flex: 1;
+  gap: var(--gap-3xs);
+  min-width: 161px;
+}
+.assigned-to-icon4 {
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+.emoji-reaction-group,
+.frame-parent6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-40xl);
+}
+.frame-parent6 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-3xl);
+}
+.add-a-short-container1 {
+  position: relative;
+  display: none;
+}
+.delegate-tasks-for {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 160px;
+}
+.emoji-reaction-icon5 {
+  height: 22px;
+  width: 22px;
+  position: relative;
+  object-fit: cover;
+}
+.delegate-tasks {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+}
+.sep-26-20211 {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.calendar-icon-group,
+.edna-date {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.calendar-icon-group {
+  flex-direction: row;
+  gap: var(--gap-3xs);
+}
+.edna-date {
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+}
+.assigned-to-icon5 {
+  height: 40px;
+  width: 70px;
+  position: relative;
+}
+.delegate-tasks-parent,
+.edna-calendar {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.edna-calendar {
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-xs);
+  color: var(--color-slategray-100);
+}
+.delegate-tasks-parent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-lg);
+}
+.image5,
+.task5 {
+  align-self: stretch;
+}
+.task5 {
+  box-shadow: 0 3px 0#b2b8c4;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-sm);
+}
+.image5 {
+  height: 120px;
+  position: relative;
+  border-radius: var(--br-7xs);
+  background: linear-gradient(90deg, #92fe9d, #00c9ff);
+}
+.update-figma-dev-team {
+  width: 249px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.update-figma {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+}
+.aubrey-to-edit-container {
+  width: 240px;
+  position: relative;
+  font-size: var(--font-size-sm);
+  display: inline-block;
+}
+.done {
+  width: 370px;
+  height: 1138px;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-whitesmoke);
+  border: 1.5px solid var(--color-white);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-51xl) var(--padding-xl) 0;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray-400);
+  font-family: var(--text-xl-bold);
+}
+@media screen and (max-width: 975px) {
+  .done {
+    padding-top: var(--padding-26xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 700px) {
+  .done {
+    padding-top: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .emoji-reaction-parent {
+    margin-left: 0;
+  }
+  .frame-parent6,
+  .task-image-content-parent {
+    flex-wrap: wrap;
+  }
+  .delegate-tasks {
+    gap: var(--gap-xl);
+    flex-wrap: wrap;
+  }
+  .edna-calendar {
+    flex-wrap: wrap;
+  }
+  .update-figma {
+    gap: var(--gap-xl);
+  }
+  .done {
+    height: auto;
+  }
+}

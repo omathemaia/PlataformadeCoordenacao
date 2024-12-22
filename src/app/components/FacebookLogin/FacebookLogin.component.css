@@ -1,0 +1,113 @@
+.acesse-a-plantaforma,
+.faa-o-login {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.acesse-a-plantaforma {
+  margin: 0;
+  width: 380px;
+  height: 76px;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  justify-content: center;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.faa-o-login {
+  height: 50px;
+}
+.login-instructions,
+.platform-access {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.login-instructions {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-9xs);
+  margin-top: -14px;
+  text-align: left;
+  font-size: var(--font-size-smi);
+  font-family: var(--font-open-sans);
+}
+.platform-access {
+  flex-direction: column;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+}
+.social-buttons {
+  font-family: var(--font-helvetica);
+}
+.social-buttons,
+.social-buttons1,
+.social-buttons2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.social-buttons1 {
+  color: var(--color-gray-400);
+  font-family: var(--font-roboto);
+}
+.social-buttons2 {
+  font-family: var(--font-sf-pro-display);
+}
+.inscreva-se-aqui {
+  text-decoration: underline;
+}
+.no-tem-redes-container {
+  height: 50px;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  cursor: pointer;
+}
+.facebook-login,
+.signup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-smi);
+  font-family: var(--font-open-sans);
+}
+.facebook-login {
+  border-radius: var(--br-5xl);
+  background-color: var(--color-darkslategray-100);
+  flex-direction: column;
+  padding: var(--padding-13xl) var(--padding-22xl) var(--padding-28xl);
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--text-xl-bold-size);
+  color: var(--color-white);
+  font-family: var(--font-plus-jakarta-sans);
+}
+@media screen and (max-width: 800px) {
+  .acesse-a-plantaforma {
+    font-size: var(--font-size-10xl);
+  }
+  .facebook-login {
+    padding-top: var(--padding-2xl);
+    padding-bottom: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .acesse-a-plantaforma {
+    font-size: var(--font-size-3xl);
+  }
+}

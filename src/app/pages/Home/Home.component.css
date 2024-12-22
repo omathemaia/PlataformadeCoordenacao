@@ -1,0 +1,370 @@
+.home1,
+.vuesaxoutlinecategory-icon {
+  position: absolute;
+  top: 141px;
+  left: 53px;
+  width: 24px;
+  height: 24px;
+}
+.home1 {
+  text-decoration: none;
+  top: 143px;
+  left: 91px;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  width: 47px;
+  height: 19px;
+  min-width: 47px;
+}
+.vuesaxlineartask-square-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  flex-shrink: 0;
+}
+.kanban {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 60px;
+  flex-shrink: 0;
+}
+.content,
+.vuesaxlineartask-square-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.content {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+}
+.vuesaxlineartask-square-parent {
+  position: absolute;
+  top: 239px;
+  left: 53px;
+  flex-direction: row;
+  gap: var(--gap-sm);
+  cursor: pointer;
+}
+.vuesaxlinearmessage-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.mensagens {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 90px;
+}
+.vuesaxlinearmessage-parent {
+  position: absolute;
+  top: 190px;
+  left: 53px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  cursor: pointer;
+}
+.equipe {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 54px;
+}
+.vuesaxlinearprofile-2user-parent {
+  position: absolute;
+  top: 290px;
+  left: 53px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  cursor: pointer;
+}
+.configuraes,
+.vuesaxlinearsetting-2-icon {
+  position: absolute;
+  top: 339px;
+  left: 52px;
+  width: 24px;
+  height: 24px;
+}
+.configuraes {
+  top: 341px;
+  left: 91px;
+  font-weight: 500;
+  display: inline-block;
+  width: 114px;
+  height: 19px;
+  min-width: 114px;
+}
+.projetos,
+.vuesaxlinearadd-square-icon {
+  position: absolute;
+  top: 428px;
+  left: 243px;
+  width: 16px;
+  height: 16px;
+}
+.projetos {
+  left: 56px;
+  font-size: var(--font-size-xs);
+  text-transform: uppercase;
+  display: inline-block;
+  width: 66px;
+  height: 15px;
+  min-width: 66px;
+}
+.project-card {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+}
+.project-avatar {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-lightgreen-200);
+  z-index: 1;
+}
+.project-card1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-7xs);
+}
+.casamento-alice {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.casamento-alice-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.project-placeholder {
+  position: relative;
+  letter-spacing: -0.07em;
+  font-weight: 800;
+  display: inline-block;
+  min-width: 18px;
+  z-index: 1;
+}
+.project-card-parent,
+.project-card2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xl);
+}
+.project-card-parent {
+  position: absolute;
+  top: 464px;
+  left: 46px;
+  align-items: flex-end;
+  padding: var(--padding-7xs) var(--padding-xs) var(--padding-3xs);
+  gap: var(--gap-base);
+  cursor: pointer;
+}
+.aniversrio-infantil,
+.campanha-ccr,
+.ensaio-nathalia,
+.ol-maia {
+  position: absolute;
+  left: 82px;
+  font-weight: 500;
+  display: inline-block;
+}
+.ensaio-nathalia {
+  top: 523px;
+  width: 119px;
+  height: 19px;
+  min-width: 119px;
+}
+.aniversrio-infantil,
+.campanha-ccr,
+.ol-maia {
+  top: 572px;
+  width: 145px;
+  height: 20px;
+}
+.campanha-ccr,
+.ol-maia {
+  top: 621px;
+  width: 122px;
+  height: 19px;
+  min-width: 122px;
+}
+.ol-maia {
+  top: 58px;
+  left: 88px;
+  font-size: var(--text-xl-bold-size);
+  font-weight: 600;
+  width: 91px;
+  height: 24px;
+  min-width: 91px;
+}
+.vuesaxbulklamp-on-icon {
+  position: absolute;
+  top: 722px;
+  left: 137px;
+  width: 24px;
+  height: 24px;
+  z-index: 2;
+}
+.button-icon {
+  position: absolute;
+  top: 0;
+  left: 289px;
+  width: 1px;
+  height: 982px;
+  object-fit: contain;
+}
+.button-icons,
+.button-icons1 {
+  position: absolute;
+  top: 113.8px;
+  left: -11px;
+  width: 1564px;
+  height: 1px;
+  z-index: 1;
+}
+.button-icons1 {
+  top: 395.5px;
+  left: 0;
+  width: 290px;
+}
+.button-icons2,
+.button-icons3,
+.button-icons4 {
+  position: absolute;
+  top: 528px;
+  left: 58px;
+  border-radius: 50%;
+  background-color: var(--color-orange);
+  width: 8px;
+  height: 8px;
+}
+.button-icons3,
+.button-icons4 {
+  top: 577px;
+  background-color: var(--color-thistle);
+}
+.button-icons4 {
+  top: 626px;
+  background-color: var(--color-cornflowerblue);
+}
+.floating-action-button-child {
+  position: absolute;
+  top: 58px;
+  left: 55px;
+  width: 24px;
+  height: 24px;
+}
+.close-button-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 100%;
+}
+.close-24dp-000000-fill0-wght40-icon {
+  position: absolute;
+  width: calc(100% - 4px);
+  top: 4px;
+  right: 2px;
+  left: 2px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 54px;
+  object-fit: cover;
+  cursor: pointer;
+  z-index: 1;
+}
+.close-button {
+  position: absolute;
+  top: 29px;
+  left: 1398px;
+  width: 58px;
+  height: 58px;
+}
+.floating-action-button,
+.home-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.home-child {
+  top: 274px;
+  left: 560px;
+  width: 15px;
+  height: 76px;
+  display: none;
+}
+.ol-maia-seja {
+  margin: 0;
+}
+.ol-maia-seja-container1 {
+  width: 100%;
+}
+.ol-maia-seja-container {
+  margin: 0;
+  position: absolute;
+  top: calc(50% - 19px);
+  left: calc(50% - 164px);
+  font-size: 64px;
+  font-weight: 600;
+  font-family: var(--font-plus-jakarta-sans);
+  color: rgba(255, 255, 255, 0.45);
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.home {
+  width: 100%;
+  height: 982px;
+  position: relative;
+  background-color: var(--color-black);
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--text-xl-bold);
+}
+@media screen and (max-width: 767px) {
+  .ol-maia-seja-container {
+    font-size: 51px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ol-maia {
+    font-size: var(--font-size-base);
+  }
+  .ol-maia-seja-container {
+    font-size: var(--font-size-19xl);
+  }
+}

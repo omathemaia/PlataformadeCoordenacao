@@ -1,0 +1,39 @@
+.facebook-logo-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.continue-with-facebook {
+  height: 23px;
+  width: 233px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.continue-with-facebook-centr,
+.social-logos {
+  height: 54px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-royalblue);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.social-logos {
+  width: 301px;
+  padding: var(--padding-mini);
+  gap: var(--gap-mini);
+}
+.continue-with-facebook-centr {
+  width: 345px;
+  padding: 0 var(--padding-2xl-5) 0 var(--padding-3xl-5);
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--text-xl-bold-size);
+  color: var(--color-white);
+  font-family: var(--font-helvetica);
+}

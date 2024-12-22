@@ -1,0 +1,73 @@
+.login-options1 {
+  width: 540px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 86px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.loading-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.loading-indicator-child {
+  position: absolute;
+  top: 30px;
+  left: 15px;
+  width: 32px;
+  height: 14.7px;
+  object-fit: contain;
+  z-index: 1;
+}
+.loading-indicator {
+  height: 58px;
+  width: 58px;
+  position: relative;
+}
+.login-sem-rede-social {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-black);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-37xl) 61px 166px 486px;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+  gap: var(--gap-xl);
+}
+@media screen and (max-width: 1200px) {
+  .login-sem-rede-social {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .login-options1 {
+    padding-top: var(--padding-37xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .login-sem-rede-social {
+    padding-left: 243px;
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .login-sem-rede-social {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

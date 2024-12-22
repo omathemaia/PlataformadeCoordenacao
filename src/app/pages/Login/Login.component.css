@@ -1,0 +1,56 @@
+.login-child {
+  width: 756px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.login,
+.login-options {
+  display: flex;
+  justify-content: flex-start;
+}
+.login-options {
+  width: 478px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 241px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.login {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-black);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 144px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1300px) {
+  .login-child,
+  .login-options {
+    flex: 1;
+  }
+  .login {
+    gap: 72px;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .login-options {
+    padding-bottom: 157px;
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .login {
+    gap: 36px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .login {
+    gap: var(--gap-lg);
+  }
+}

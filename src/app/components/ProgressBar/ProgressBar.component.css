@@ -1,0 +1,22 @@
+.progress-bar,
+.root {
+  width: 310px;
+  height: 6px;
+}
+.progress-bar {
+  position: relative;
+  border-radius: var(--br-10xs);
+  background: linear-gradient(270deg, #02c39a, #f0f3bd);
+}
+.root {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.root,
+.root[data-progress="25%"] .progress-bar,
+.root[data-progress="50%"] .progress-bar {
+  flex-shrink: 0;
+}

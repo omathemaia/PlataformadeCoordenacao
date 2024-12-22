@@ -1,0 +1,241 @@
+.projetos4 {
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 66px;
+}
+.vuesaxlinearadd-square-icon3 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+}
+.header,
+.title1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.title1 {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.header {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs) 0 var(--padding-3xs);
+  font-size: var(--font-size-xs);
+}
+.background1 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+}
+.dot {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-lightgreen-200);
+  z-index: 1;
+}
+.circle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-7xs);
+}
+.casamento-alice4 {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.empty {
+  position: relative;
+  letter-spacing: -0.07em;
+  font-weight: 800;
+  display: inline-block;
+  min-width: 18px;
+  z-index: 1;
+}
+.background-group,
+.details {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xl);
+}
+.background-group {
+  align-self: stretch;
+  align-items: flex-end;
+  padding: var(--padding-7xs) var(--padding-xs) var(--padding-3xs);
+  position: relative;
+  gap: var(--gap-base);
+}
+.ensaio-nathalia3 {
+  position: relative;
+  font-weight: 500;
+}
+.birthday,
+.nathalia,
+.new-project {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.nathalia {
+  flex-direction: row;
+  padding: 0 var(--padding-16xl) 0 var(--padding-17xl);
+}
+.birthday,
+.new-project {
+  align-self: stretch;
+}
+.new-project {
+  flex-direction: column;
+  gap: var(--gap-xl);
+}
+.birthday {
+  flex-direction: row;
+  padding: 0 var(--padding-17xl);
+}
+.campanha-ccr3 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 122px;
+}
+.list {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xl-5);
+}
+.union-icon1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.red-dot {
+  position: absolute;
+  top: 16px;
+  left: 86px;
+  filter: blur(34px);
+  border-radius: 50%;
+  background-color: var(--color-gold);
+  width: 33px;
+  height: 33px;
+  z-index: 1;
+}
+.icon-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.nova-notificao1 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 115px;
+  z-index: 1;
+}
+.content3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xl) 0 var(--padding-7xl);
+}
+.kauan-acabou-de1 {
+  position: relative;
+  font-size: var(--font-size-xs);
+  color: var(--color-slategray-200);
+  text-align: center;
+  z-index: 1;
+}
+.message {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.action-child {
+  height: 40px;
+  width: 166px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-darkgray-100);
+  display: none;
+}
+.responder-mensagem1 {
+  position: relative;
+  font-weight: 500;
+  z-index: 2;
+}
+.action,
+.notification,
+.projects {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.action {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-darkgray-100);
+  flex-direction: row;
+  padding: var(--padding-2xs) var(--padding-7xs) var(--padding-xs)
+    var(--padding-5xs);
+  z-index: 1;
+}
+.notification,
+.projects {
+  flex-direction: column;
+}
+.notification {
+  width: 206px;
+  padding: var(--padding-49xl) var(--padding-xl) var(--padding-4xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-7xl);
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+}
+.projects {
+  align-self: stretch;
+  gap: var(--gap-42xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--text-xl-bold);
+}

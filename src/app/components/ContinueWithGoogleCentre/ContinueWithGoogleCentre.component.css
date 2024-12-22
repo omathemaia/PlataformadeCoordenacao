@@ -1,0 +1,39 @@
+.google-logo-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.continue-with-google {
+  height: 23px;
+  width: 193px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.continue-with-google-centre,
+.google-logo-parent {
+  height: 54px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.google-logo-parent {
+  width: 261px;
+  padding: var(--padding-mini);
+  gap: var(--gap-mini);
+}
+.continue-with-google-centre {
+  width: 345px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.08), 0 2px 3px rgba(0, 0, 0, 0.17);
+  padding: 0 var(--padding-23xl);
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--text-xl-bold-size);
+  color: var(--color-gray-400);
+  font-family: var(--font-roboto);
+}

@@ -1,0 +1,451 @@
+.frame-child10 {
+  width: 378px;
+  height: 383px;
+  position: relative;
+  box-shadow: 0 4px 5px 2px rgba(121, 197, 239, 0.38);
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.pessoas {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.people {
+  width: 148px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs) 0 var(--padding-7xs);
+  box-sizing: border-box;
+}
+.chat-item-icon {
+  width: 35px;
+  height: 36px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 1;
+}
+.chat-item-icon2,
+.chat-status-icon {
+  height: 35px;
+  width: 35px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 1;
+}
+.chat-item1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs) 0 0;
+}
+.chat-list1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.anil1,
+.april-fools-day {
+  position: relative;
+  letter-spacing: 0.05em;
+  z-index: 1;
+}
+.anil1 {
+  width: 77px;
+  line-height: 16px;
+  font-weight: 600;
+  display: inline-block;
+}
+.april-fools-day {
+  align-self: stretch;
+  font-size: var(--font-size-base);
+  font-weight: 300;
+}
+.user-names,
+.user-pair {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.user-names {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-6xs);
+}
+.user-pair {
+  width: 133px;
+  flex-direction: row;
+  padding: 0 var(--padding-12xs) var(--padding-8xs);
+  box-sizing: border-box;
+}
+.baag,
+.chuuthiya {
+  position: relative;
+  letter-spacing: 0.05em;
+  z-index: 1;
+}
+.chuuthiya {
+  align-self: stretch;
+  line-height: 16px;
+  font-weight: 600;
+}
+.baag {
+  width: 53px;
+  font-size: var(--font-size-base);
+  font-weight: 300;
+  display: inline-block;
+}
+.user-pair1 {
+  width: 133px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.mary-maam,
+.you-have-to {
+  position: relative;
+  letter-spacing: 0.05em;
+  z-index: 1;
+}
+.mary-maam {
+  width: 133px;
+  line-height: 17px;
+  font-weight: 600;
+  display: inline-block;
+}
+.you-have-to {
+  font-weight: 300;
+}
+.chat-preview,
+.preview-detail {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.preview-detail {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-11xs);
+  font-size: var(--font-size-base);
+}
+.chat-preview {
+  flex-direction: column;
+  padding: 0 0 var(--padding-8xs);
+  gap: var(--gap-7xs);
+}
+.bill-gates,
+.nevermind-bro {
+  position: relative;
+  letter-spacing: 0.05em;
+  z-index: 1;
+}
+.bill-gates {
+  align-self: stretch;
+  line-height: 17px;
+  font-weight: 600;
+}
+.nevermind-bro {
+  font-size: var(--font-size-base);
+  font-weight: 300;
+  display: inline-block;
+  min-width: 120px;
+}
+.last-chat {
+  width: 142px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-7xs);
+}
+.victoria-h {
+  width: 120px;
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 16px;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 1;
+}
+.chat-users {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.today-952pm {
+  height: 14px;
+  position: relative;
+  letter-spacing: 0.01em;
+  font-weight: 300;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.charmtick-double-icon {
+  height: 18px;
+  width: 17px;
+  position: relative;
+  z-index: 1;
+}
+.delivery-status {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-6xs);
+}
+.time-items,
+.time-items-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.time-items {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-12xs);
+}
+.time-items-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-7xs) var(--padding-8xs) var(--padding-9xl);
+}
+.today-1211pm {
+  height: 13px;
+  position: relative;
+  letter-spacing: 0.01em;
+  font-weight: 300;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.phnumber-circle-one-fill-icon {
+  height: 21px;
+  width: 21px;
+  position: relative;
+  z-index: 1;
+}
+.phnumber-circle-one-fill-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs);
+}
+.today-1211pm-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.chat-time-inner,
+.phnumber-circle-one-fill-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs) 0 var(--padding-xl);
+}
+.phnumber-circle-one-fill-container {
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xs);
+}
+.chat-time-child,
+.today-240pm-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.today-240pm-parent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-8xs);
+}
+.chat-time-child {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-5xs) 0 var(--padding-7xl);
+}
+.yesterday-1231pm {
+  align-self: stretch;
+  height: 13px;
+  position: relative;
+  letter-spacing: 0.01em;
+  font-weight: 300;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.phnumber-circle-five-fill-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-4xs);
+}
+.chat-time-inner1,
+.yesterday-1231pm-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.yesterday-1231pm-parent {
+  flex: 1;
+  flex-direction: column;
+}
+.chat-time-inner1 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-9xs) var(--padding-5xs);
+}
+.wednesday-1112am {
+  align-self: stretch;
+  height: 13px;
+  position: relative;
+  letter-spacing: 0.01em;
+  font-weight: 300;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.chat-time,
+.chat-time-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.chat-time {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.chat-time-wrapper {
+  width: 108px;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-100);
+}
+.chat-details,
+.confirmation-message {
+  display: flex;
+  justify-content: flex-start;
+}
+.chat-details {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-6xs);
+}
+.confirmation-message {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.charmtick-double-icon1 {
+  height: 17px;
+  width: 18px;
+  position: relative;
+  z-index: 1;
+}
+.chat-content1,
+.confirmation {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.confirmation {
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 var(--padding-xs) 0 0;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-base);
+}
+.chat-content1 {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.chat {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-10xs) 0 0;
+}
+.chat,
+.people-list,
+.rectangle-parent4 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.people-list {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-2xl);
+  font-size: var(--text-xl-bold-size);
+}
+.rectangle-parent4 {
+  position: absolute;
+  top: 528px;
+  left: 337px;
+  box-shadow: 0 4px 5px 2px rgba(121, 197, 239, 0.38);
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  width: 378px;
+  flex-direction: column;
+  padding: var(--padding-3xl) var(--padding-sm) var(--padding-17xl);
+  box-sizing: border-box;
+  gap: var(--gap-smi);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslategray-300);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 450px) {
+  .pessoas {
+    font-size: var(--font-size-lgi);
+  }
+  .anil1,
+  .chuuthiya {
+    font-size: var(--font-size-base);
+    line-height: 13px;
+  }
+  .bill-gates,
+  .mary-maam,
+  .victoria-h {
+    font-size: var(--font-size-base);
+    line-height: 14px;
+  }
+  .victoria-h {
+    line-height: 13px;
+  }
+}
